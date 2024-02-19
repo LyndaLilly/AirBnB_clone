@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="mobile_nav">
+        <label for="main_check" class="main_nav_burguer">|||</label>
+        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check">
+          <nav>
+              <ul class="nav_bar_level1">
+                <li>
+                    <label for="second_check"><span>States</span></label>
+                    <input type="checkbox" name="second_check" id="second_check">
+                  <ul>
+                    <li><span>Enugu</span></li>
+                    <li><span>Anambra</span></li>
+                  </ul>
+                  </li>
+                <li>
+                  <label for="third_check"><span>Amenities</span></label>
+                  <input type="checkbox" name="second_check" id="third_check">
+                  <ul>
+                    <li><span>Good roads</span></li>
+                    <li><span>Electricity</span></li>
+                    <li><span>Finance</span></li>
+                    <li><span>Economy</span></li>
+                    <li><span>Security</span></li>
+                  </ul>
+                  </li>
+              </ul>
+        </nav><!-- final del main_nav_bar -->
+      </div>
+    </header>
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Imo</h4>
+          <ul class="popover">
+            <li><h2>Aba</h2>
+              <ul>
+                <li>list 1</li>
+                <li>list 2</li>
+              </ul>
+            </li>
+            <li><h2>Anambra</h2>
+              <ul>
+                <li>Kaduna</li>
+                <li>Lagos</li>
+              </ul>
+            </li>
+            </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Good road</h4>
+          <ul class="popover">
+            <li>Security</li>
+            <li>Finance</li>
+            <li>Economy</li>
+            <li>Street lights</li>
+          </ul>
+        </div>
+        <button type="button" name="button">Search</button>
+      </section> <!-- end fiter-->
+
+      <section class="places">
+        <h1>Places</h1>
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My home</h2>
+            <div class="price_by_night">$70</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Lynda</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quaerat est laudantium totam perspiciatis? Vero itaque facilis quasi enim ipsam nulla distinctio assumenda earum! Fugiat deserunt consequatur corporis perspiciatis voluptatum!</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                lovely
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                good books
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                dance
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Lynda</h3>
+                <p>This is a good place</p>
+              </li>
+              <li>
+                <h3>Reviewd by Lynda</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$50</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">2 Bedrooms</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Linus</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero dolore sunt odit, molestias accusantium, non ad placeat nisi at in delectus error deleniti optio omnis odio. Saepe officia voluptatum omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis error omnis, repellendus expedita saepe nulla unde quis temporibus consequatur autem optio quibusdam repudiandae labore consectetur accusantium tempora in incidunt!</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                lovely
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Smith</h3>
+                <p>This is a good place</p>
+              </li>
+              <li>
+                <h3>Reviewd by Michael</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$200</div>
+          <div class="information">
+            <div class="max_guest">5 Guests</div>
+            <div class="number_rooms">3 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Nnamdi</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquam consequatur, ut magnam inventore, est dolorum sunt ullam perspiciatis nostrum molestiae deleniti asperiores excepturi eveniet. Laboriosam voluptatum voluptates reiciendis nihil. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatum quod, error dolores voluptas, ad praesentium tenetur quaerat quia doloribus commodi consequatur quidem non distinctio amet doloremque magni. Ratione, tempora.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                lovely
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                dance
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+               read
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Lynda</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My house</h2>
+            <div class="price_by_night">$70</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Lynda</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat quis accusamus animi explicabo voluptatum reiciendis aut illum ducimus fugit optio, pariatur rerum minus velit qui officiis quas perferendis enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto corporis neque eos consectetur voluptate doloribus explicabo, fugiat ducimus itaque unde. Hic aut numquam aliquid explicabo a id iste atque alias?</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Good road
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                security
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                good road
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Lynda</h3>
+                <p>This is a good place</p>
+              </li>
+              <li>
+                <h3>Reviewd by Amaka</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>Otaku rooms</h2>
+            <div class="price_by_night">$50</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Lynda</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis veritatis deserunt illo voluptate amet eum quasi maxime, placeat molestias explicabo iste recusandae quia nesciunt eaque vel inventore qui! Qui, amet.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                dancing
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                read
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                sleep
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Tony</h3>
+                <p>This is a good place</p>
+              </li>
+              <li>
+                <h3>Reviewd by Collins</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>Donkey Kong Country</h2>
+            <div class="price_by_night">$100</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">8 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Benjamin</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempora eaque nostrum maiores veniam! Labore doloremque omnis quam libero delectus quasi, eligendi maxime, quos neque eos, enim quaerat a recusandae.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                dance
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+               read
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                sing
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>Reviewd by Lynda</h3>
+                <p>This is a good place</p>
+              </li>
+              <li>
+                <h3>Reviewd by Stanley</h3>
+                <p>This is a good place</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        </section> <!-- end section -->
+    </div>
+    <footer>
+      <p>Higher Education</p>
+    </footer>
+  </body>
+</html>
